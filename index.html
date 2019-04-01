@@ -1,63 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<title>Joshua Jenner</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="index.css" type="text/css" rel="stylesheet" />
+		<link rel="icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="https://use.typekit.net/hbm1hbt.css" />
+		<script src="jquery-3.3.1.min.js"></script>
+	</head>
 
-    <head>
-        <title>Joshua Jenner</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="index.css" type="text/css" rel="stylesheet" />
-        <link rel="icon" href="favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="https://use.typekit.net/hbm1hbt.css">
-        <script src="jquery-3.3.1.min.js"></script>        
-    </head>
-    
-    <script>
-        $(window).scroll(function(e){
-           parallax();
-        });
+	<script>
+		$(window).scroll(function(e) {
+			parallax();
+		});
 
-        function parallax(){
-            var scrolled = $(window).scrollTop();
-            $('#background').css('top',-(scrolled*0.2)+'px');
-        }
-    </script>
+		function parallax() {
+			var scrolled = $(window).scrollTop();
+			$("#background").css("top", -(scrolled * 0.2) + "px");
+		}
+	</script>
 
-    <body>
-        <div id="background"></div>
-        <div id="header">
-            <div id="header-content">
-                <h1 id="title">Joshua<span class="title_break"> </span></br class="title-break">Jenner</h1>
-            </div>
-        </div>
-        <div id="main">
-            <div class="main-block">
-                <div class="block-title">
-                    <h2>About Me</h2>
-                </div>
-                <div class="block-content">
-                    <p>I am currently finishing my Associate's Degree in Information Systems Development. I'm interested in learning full stack web development and aspire to be a game developer in the future.</p>
-                </div>
-            </div>
-            <div class="main-block">
-                <div class="block-title">
-                    <h2>Conquered Lands</h2>
-                </div>
-            </div>
-            <div class="main-block">
-                <div class="block-title">
-                    <h2>Uncharted Territory</h2>
-                </div>
-            </div>  
-            <div class="main-block">
-                <div class="block-title">
-                    <h2>Notable Landmarks</h2>
-                </div>
-            </div>
-            <div class="main-block">
-                <div class="block-title">
-                    <h2>Where to next?</h2>
-                </div>
-            </div>   
-        </div>
-    </body>
+	<body>
+		<div id="background"></div>
+		<div id="header">
+			<div id="header-content">
+				<h1 id="title">Joshua<span> </span></br>Jenner</h1>
+			</div>
+		</div>
+		<div id="main">
+			<div class="main-block">
+				<div class="block-title">
+					<h2>About Me</h2>
+				</div>
+				<div class="block-content">
+					<p>
+						I am currently finishing my Associate's Degree in
+						Information Systems Development. I'm interested in
+						learning full stack web development and aspire to be a
+						game developer in the future.
+					</p>
+				</div>
+			</div>
+			<div class="main-block">
+				<div class="block-title">
+					<h2>Conquered Lands</h2>
+				</div>
+			</div>
+			<div class="main-block">
+				<div class="block-title">
+					<h2>Uncharted Territory</h2>
+				</div>
+			</div>
+			<div class="main-block">
+				<div class="block-title">
+					<h2>Notable Landmarks</h2>
+				</div>
+			</div>
+			<div class="main-block">
+				<div class="block-title">
+					<h2>Where to next?</h2>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
