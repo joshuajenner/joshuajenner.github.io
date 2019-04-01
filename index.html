@@ -1,26 +1,43 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Joshua Jenner</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="index.css" type="text/css" rel="stylesheet" />
-  </head>
+<html lang="en">
 
-  <body>
-    <div id="body">
-      <div id="header">
-        <div id="header-content">
-          <h1 id="title">Joshua Jenner</h1>
-          <p>
-            A student of Community College of CityU finishing his Associates
-            Degree
-          </p>
+    <head>
+        <title>Joshua Jenner</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="index.css" type="text/css" rel="stylesheet" />
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <script src="jquery-3.3.1.min.js"></script>        
+    </head>
+    
+    <script>
+        $(window).scroll(function(e){
+           parallax();
+        });
+
+        function parallax(){
+            var scrolled = $(window).scrollTop();
+            $('#background').css('top',-(scrolled*0.05)+'px');
+        }
+    </script>
+
+    <body>
+        <div id="background"></div>
+        <div id="header">
+            <div id="header-content">
+                <h1 id="title">Joshua <br/>Jenner</h1>
+            </div>
         </div>
-      </div>
-      <div id="main">
-        <div id=""></div>
-      </div>
-    </div>
-  </body>
+        <div id="main">
+            <div class="block">
+                <h2>About Me</h2>
+            </div>
+            <div class="block">
+                <h2>About Me</h2>
+            </div>
+            <div class="block">
+                <h2>About Me</h2>
+            </div>    
+        </div>
+    </body>
 </html>
