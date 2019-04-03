@@ -112,14 +112,24 @@ h6 {
 .progress {
   display: inline-flex;
   height: 20px;
-  width: 90px;
-  background: white;
+  margin: 5px 0px 5px 0px;
+  width: 100px;
+  background: rgba(255,255,255, 0.3);
 }
 .progress::after {
-
+  content: "";
+  position: aboslute;
+  height: 20px;
+  background: white;
+}
+.p90::after {
+  width: 90px;
 }
 .inline-p {
   display: inline-block;
+}
+.inline-left {
+  width: 160px;
 }
 .html-icon {
 }
