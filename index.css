@@ -17,10 +17,10 @@
 }
 @media (min-width: 1200px) {
   .block-title {
-    width: 40%;
+    width: 40%!important;
   }
   .block-content {
-    width: 60%;
+    width: 60%!important;
   }
   .main-block {
     flex-wrap: nowrap;
@@ -28,6 +28,9 @@
   h2 {
     margin: 0px 5% 0px 0px;
     text-align: right;
+  }
+  .sub-title {
+    margin-top: 0px!important;
   }
 }
 html {
@@ -77,7 +80,9 @@ h6 {
   color: white;
   font-size: 50px;
 }
-
+.sub-title {
+  color: white;
+}
 #header {
   min-height: 100vh;
   display: flex;
@@ -100,7 +105,16 @@ h6 {
   display: flex;
   flex-wrap: wrap;
 }
-
+.block-title {
+  margin-top: 0px;
+  width: 100%;
+}
+.block-content {
+  width: 100%;
+}
+.sub-title {
+  margin-top: -3%;
+}
 .html-icon {
 }
 .css-icon {
