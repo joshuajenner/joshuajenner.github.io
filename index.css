@@ -29,9 +29,6 @@
     margin: 0px 5% 0px 0px;
     text-align: right;
   }
-  .sub-title {
-    margin-top: 0px!important;
-  }
 }
 html {
   box-sizing: border-box;
@@ -112,8 +109,17 @@ h6 {
 .block-content {
   width: 100%;
 }
-.sub-title {
-  margin-top: -3%;
+.progress {
+  display: inline-flex;
+  height: 20px;
+  width: 90px;
+  background: white;
+}
+.progress::after {
+
+}
+.inline-p {
+  display: inline-block;
 }
 .html-icon {
 }
