@@ -112,7 +112,7 @@ h6 {
   display: none;   
 }
 #main {
-  padding: 5%;
+  padding: 5% 5% 1% 5%;
 }
 .main-block {
   margin-bottom: 10%;
@@ -191,6 +191,16 @@ h6 {
 #submit {
   padding: 5px;
   font-size: 15px;
+}
+#footer {
+  color: white;
+  text-align: center;
+}
+#footer p {
+  font-size: 18px!important;
+}
+#footer a {
+  text-decoration: underline;
 }
 #background {
   width: 100%;
