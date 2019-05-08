@@ -23,50 +23,78 @@
 
 	<body>
 		<div id="background"></div>
-		<div id="header">
+		<header id="header">
 			<div id="header-content">
 				<h1 id="title">Joshua<span> </span></br>Jenner</h1>
+				<p>Web Developer</p>
 			</div>
-		</div>
-		<div id="main">
-			<div class="main-block">
+		</header>
+		<main id="main">
+			<section class="main-block">
 				<div class="block-title">
 					<h2>About Me</h2>
 				</div>
 				<div class="block-content">
 					<p>
 						I am currently finishing my Associate's Degree in
-						Information Systems Development. I'm interested in
-						learning full stack web development and aspire to be a
-						game developer in the future.
+						Information Systems Development. I'm committed to
+						learning full stack web development and progressive web app technology.
 					</p>
 				</div>
-			</div>
-			<div class="main-block">
+			</section>
+			<section class="main-block">
 				<div class="block-title">
-					<h2>Conquered Lands</h2>
+					<h2>Skills</h2>
 				</div>
 				<div class="block-content">
-						<p class="inline-p inline-left">HTML</p>		<div class="progress p90"></div>	<p class="inline-p">90%</p></br>
-						<p class="inline-p inline-left">CSS</p>			<div class="progress p90"></div>	<p class="inline-p">90%</p></br>
-						<p class="inline-p inline-left">Javascript</p>	<div class="progress p90"></div>	<p class="inline-p">90%</p>
+					<ul id="skills-list">
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>Javascript</li>
+					</ul>
 				</div>
-			</div>
-			<div class="main-block">
+			</section>
+			<section class="main-block">
 				<div class="block-title">
-					<h2>Uncharted Territory</h2>
+					<h2>Projects</h2>
 				</div>
-			</div>
-			<div class="main-block">
-				<div class="block-title">
-					<h2>Notable Landmarks</h2>
+				<div class="block-content">
+					<div class="project">
+						<div class="project-image-box">
+							<img class="project-image" src="projects/halocomp.jpg" alt="An outline of a sci-fi helmet placed on a geometric background." >
+						</div>
+						<div class="project-meta">
+							<div class="project-tags">
+								<span class="skill-tag html">HTML</span>
+								<span class="skill-tag css">CSS</span>
+								<span class="skill-tag js">JS</span>
+							</div>
+							<div class="project-url">
+								<a href="https://www.halocompetitive.com" target="blank">halocompetitive.com</a>
+							</div>
+							<div class="project-desc">
+								<p>A static site that teaches players about the esports side of the video-game Halo.</p>
+							</div>
+						</div>
+					</div>
 				</div>
-			</div>
-			<div class="main-block">
+			</section>
+			<section class="main-block">
 				<div class="block-title">
 					<h2>Where to next?</h2>
 				</div>
-			</div>
-		</div>
+				<div class="block-content">
+						<form id="contact" action="https://formspree.io/joshua-jenner@hotmail.com" method="POST">
+							<p>Name</p>
+							<input type="text" name="name">
+							<p>Message</p>
+							<textarea id="message-box" type="text" name="message"></textarea>
+							<br>
+							<input id="submit" type="submit" value="Submit" name="submit">
+						</form>
+
+				</div>
+			</section>
+		</main>
 	</body>
 </html>
