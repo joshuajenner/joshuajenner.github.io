@@ -159,7 +159,7 @@ nav ul li a:hover {
 }
 #hero-box {
 	position: relative;
-	height: 70vh;
+	height: 100vh;
 	overflow: hidden;
 	/* here */
 	border-radius: 0px 0px 16px 0px;
