@@ -177,13 +177,13 @@ nav ul li a:hover {
 	transform: translateX(-50%) translateY(-50%);
 }
 #hero-icon {
-	width: 300px;
+	width: 250px;
 }
 #hero-feature p {
 	color: var(--white);
 	text-align: center;
 	font-family: 'Permanent Marker', cursive;
-	font-size: 2.441em;
+	font-size: 1.953em;
 }
 #hero-overlay {
 	position: absolute;
