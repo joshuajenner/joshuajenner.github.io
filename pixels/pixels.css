@@ -52,8 +52,7 @@ nav {
 
 nav ul {
     height: 48px;
-    margin: auto;
-    width: 1072px;
+    margin: 0px 16px;
     padding: 0px;
     display: flex;
     justify-content: space-between;
@@ -83,7 +82,9 @@ main {
 }
 
 #container {
-    width: 1072px;
+    width: 256px;
+    margin: 0px 16px;
+    overflow: hidden;
 }
 
 .title {
@@ -118,6 +119,13 @@ main {
     margin: 8px;
 }
 
+.box img {
+    height: 256px;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+}
+
 .g2 {
     grid-column-end: 2;
 }
@@ -147,4 +155,38 @@ footer {
 
 .light {
     display: none;
+}
+
+
+@media (min-width: 560px) {
+    #container {
+        width: 528px;
+    }
+
+    nav ul {
+        width: 528px;
+        margin: auto;
+    }
+}
+
+@media (min-width: 832px) {
+    #container {
+        width: 800px;
+    }
+
+    nav ul {
+        width: 800px;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1104px) {
+    #container {
+        width: 1072px;
+    }
+
+    nav ul {
+        width: 1072px;
+        margin: auto;
+    }
 }
