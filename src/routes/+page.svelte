@@ -1,2 +1,8 @@
-<h1>Welcome to my site 3</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<main id="page">
+	<h1 id="hero_title">JOSHUA JENNER</h1>
+
+	<div class="title">
+		<h1>PROJECTS</h1>
+		<hr class="rule" />
+	</div>
+</main>
