@@ -16,7 +16,7 @@
 			image: "/projects/kojum.jpg",
 			release: "2022 - PC",
 			links: ["https://heartfiregames.itch.io/kojum", "https://github.com/joshuajenner/kojum"],
-			points: ["Implemented a character controller, and state machine", "Designed and created a local multiplayer UI that handles up to 8 players"]
+			points: ["Implemented a character controller, and state machine", "Developed a full game flow from character customisation, to team select, map select, match restart, and pause", "Designed and created a local multiplayer UI that handles up to 8 players"]
 		}
 	]
 </script>
