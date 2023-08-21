@@ -11,7 +11,7 @@
 
 <div class="project_item">
     <div class="img">
-        <img alt="" src={image} />
+        <img alt="" src={assets}{image} />
     </div>
     <div class="info">
         <div class="top">

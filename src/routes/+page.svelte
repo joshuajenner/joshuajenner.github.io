@@ -1,4 +1,6 @@
 <script>
+	import { assets, base } from "$app/paths";
+
 	import ProjectItem from "../components/project_item.svelte"
 
 	let projects = [
