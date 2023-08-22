@@ -9,11 +9,15 @@
 
 <div class="post_large">
 	<div class="thumbnail">
-		<img alt="" src="{assets}{thumbnail}" />
+		<a href="{base}/blog/{slug}">
+			<img alt="" src="{assets}{thumbnail}" />
+		</a>
 	</div>
 	<div class="info">
 		<div class="title">
-			<h2>{title}</h2>
+			<a href="{base}/blog/{slug}">
+				<h2>{title}</h2>
+			</a>
 		</div>
 		<div class="date">
 			<p>{date}</p>
@@ -34,6 +38,9 @@
 	.title h2 {
 		font-size: 32px;
 		margin: 1rem 0px;
+	}
+	.title h2:hover {
+		text-decoration: underline;
 	}
 
 	.date p {

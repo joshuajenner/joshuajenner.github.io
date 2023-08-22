@@ -10,10 +10,14 @@
 <div class="post_mini">
 	<div class="info">
 		<div class="thumbnail">
-			<img alt="" src="{assets}{thumbnail}" />
+			<a href="{base}/blog/{slug}">
+				<img alt="" src="{assets}{thumbnail}" />
+			</a>
 		</div>
 		<div class="title">
-			<h3>{title}</h3>
+			<a href="{base}/blog/{slug}">
+				<h3>{title}</h3>
+			</a>
 		</div>
 		<div class="date">
 			<p>{date}</p>
@@ -39,6 +43,9 @@
 	.thumbnail img {
 		width: 100%;
 		height: auto;
+	}
+	.title h3:hover {
+		text-decoration: underline;
 	}
 	.read {
 		flex-grow: 1;

@@ -19,6 +19,12 @@
 	<div class="post_content">
 		<svelte:component this={data.content} />
 	</div>
+
+	<div class="back">
+		<a href="{base}/blog">
+			<h4>Back to Posts</h4>
+		</a>
+	</div>
 </div>
 
 <style>
@@ -41,5 +47,25 @@
 	}
 	.post_content {
 		line-height: 1.45;
+	}
+
+	.back {
+		flex-grow: 1;
+		display: flex;
+		align-items: end;
+		justify-content: end;
+		margin-top: 6rem;
+	}
+	.back a {
+		display: block;
+		background-color: var(--main-highlight);
+		padding: 1rem 1.5rem;
+	}
+	.back a:hover {
+		background-color: var(--light-highlight);
+	}
+	.back a h4 {
+		margin: 0px;
+		color: white;
 	}
 </style>

@@ -1,6 +1,6 @@
 ---
-title: 5 Tip For Making Your First Game
-description: First post.
+title: 5 Tips For Making Your First Game
+description: 5 Tips For Making Your First Game
 date: "22-08-2023"
 published: true
 thumbnail: "/posts/5-things_thumb.jpg"
@@ -8,8 +8,6 @@ hero: "/posts/5-things_hero.jpg"
 ---
 
 <script lang="ts">
-
-
     import YoutubeVideo from "../../components/youtube_embed.svelte";
     import Image from "../../components/post_img.svelte";
 </script>
@@ -66,6 +64,6 @@ Something similar happened when I was creating the sounds for the games. I was o
 
 Enjoy the process, and take loads, and loads of pictures along the way. Creating any game is challenging so make sure to find a pace and process that is sustainable for you, and something that you can have fun doing.
 
-If there's one thing I did more of was record and take screenshot of my game. I have this cool time lapse of myself making the art for one of the maps, and I wish, I did that for the other maps too. So record and take screenshot of your game while you're developing it. It's so fun to look back, and see how far the game has progressed.
+If there's one thing I did more of was record and take screenshot of my game. I have this cool time lapse of myself making the art for one of the maps, and I wish I did that for the other maps too. So record, and take screenshot of your game while you're developing it. It's so fun to look back, and see how far the game has progressed.
 
 <Image path="/posts/courtyard_making_of.gif" />
