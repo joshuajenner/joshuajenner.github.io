@@ -30,7 +30,11 @@ html {
 
 :root {
     /* Previous 0045d0 */
-  --main-highlight: #0000ec;
+    /* #0000ec */
+  --main-highlight: #0045d0;
+  --dark-highlight: #0000ec;
+  --light-highlight: #1c95ff;
+  --gold: #eda700;
   --text-dark: #222C35;
   --text-light: #585858;
 }
@@ -85,7 +89,8 @@ main {
 }
 
 .svg_fill {
-    fill: #2E383D;
+    /* fill: #2E383D; */
+    fill: var(--main-highlight);
 }
 *:hover > .svg_fill {
     fill: var(--main-highlight);
@@ -103,7 +108,7 @@ main {
     width: auto;
     flex-grow: 1;
     border: 0px;
-    background: var(--main-highlight);
+    background: var(--gold);
 }
 
 .row {
