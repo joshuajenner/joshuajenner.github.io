@@ -85,11 +85,12 @@ main {
 .section_title {
     display: flex;
     align-items: center;
-    margin-top: 16px;
+    margin-top: 2rem;
+    grid-gap: 1rem;
 }
 
 .section_rule {
-    margin: 0px 0px 0px 16px;
+    margin: 0px;
     height: 4px;
     width: auto;
     flex-grow: 1;

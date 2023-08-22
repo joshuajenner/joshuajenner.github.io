@@ -1,0 +1,71 @@
+---
+title: 5 Tip For Making Your First Game
+description: First post.
+date: "22-08-2023"
+published: true
+thumbnail: "/posts/5-things_thumb.jpg"
+hero: "/posts/5-things_hero.jpg"
+---
+
+<script lang="ts">
+
+
+    import YoutubeVideo from "../../components/youtube_embed.svelte";
+    import Image from "../../components/post_img.svelte";
+</script>
+
+Hey everyone. This blog post is an extract from a talk I gave at [Gamedev Happy Hour](https://twitter.com/GameDevHH) in Hong Kong. Gamedev Happy Hour is a small but friendly monthly meetup that usually features a speaker. I was August 2023's speaker, and I gave a topic about my experience developing Kojum, and how it's design evolved over the course of development.
+
+You can check out a video of the talk below, or continue reading on to get my 5 tips for making your first game.
+
+<YoutubeVideo link="https://www.youtube.com/embed/B0GvHfhImMM" />
+
+### 1. Pick a Good Small Game Idea
+
+The number one piece of advice I saw all the time when I first started was make a small game for your first one. And usually that means joining a game jam. You limit your time to a weekend or a week, and that limited time keeps your game small. But what if you wanted to try something bigger, and try to make something that would take many weeks or months to complete?
+
+You need to limit the scope of the game another way other than time. If you are looking for some advice, here is what I would suggest.
+
+** 1. Don't make a multiplayer game. **
+
+Making a singleplayer game is difficult, making a multiplayer game is 10x harder. You are adding layers, and layers of complexity that can be incredibly frustrating if you don’t know what you are doing. But let’s say for example you are a senior networking engineer, and you would have no issue making a multiplayer game. The next problem would be play testing.
+
+This was something that Mediatonic, the creators of Fall Guys, had problems with. Each match of Fall Guys, required up to 60 players to start. It is incredibly difficult to get any amount of people online at the same time and ready to start. This is something you will need every time you playtest your game.
+
+** 2. Don't make a game that is content heavy. **
+
+In a game you would have systems, and then you feed content into those systems. For example, a fighting game has a character system where they can move, jump, attack. Then the developers feed content like, new animations, models, sounds, and combos to fill out the system, and add replayability. An rpg would have a quest system, and the content would be all the writing, and missions that it holds. And the reason you shouldn’t make the type of game that requires tons and tons of content, is that it just takes a lot of time.
+
+Larger games will have entire teams dedicated to creating content. If you’re just 1 developer, or part of a small team, creating loads of content can be tiring. So try to think about your game in terms of systems and content to avoid making games that need lots of content
+
+** 3. Don't make a game with complex systems. **
+
+If you think you shouldn’t make a game with loads of content, you might think “Ahh! Then I’ll make a game with procedural generation that way all the content is generated for me.” Don’t do that. This last point is more subjective because it’s hard to define exactly what a complex system is, but do try to avoid things like precedural generation or AI. They require a lot of work up front before you can start to see their effects in game, and if you are trying to make a small game this can be an issue.
+
+### 2. However Long You Think Your Game Will Take, Quadruple It
+
+The idea behind Kojum was to make a local multiplayer mashup of martial arts and football. The mechanics, and assets needed to complete the game were quite simple. I figured the game would take me about 6 months to complete. It took me 2 years... If you're just beginning, you actually have no idea how long things take. Whatever time you think something will take, don't just double it. Quadruple it.
+
+Also, one of the main processes you will go through in gamedev is iteration. It is very rare that the first version of something you make is the version that ships with the game. You will constantly have to redo work you have already done because of bug fixes, for game polish, or even because the game has just changed, and you need to redo the work for the new design.
+
+One thing that I found for myself is that if you take on a long enough project as a beginner, your skills will develop over the course of the project, and the things you make towards the end are better than what you made at the beginning. So you end up having to redo the stuff you made earlier just to keep the quality level in line.
+
+### 3. Always Test In Context
+
+When testing your game, always test it in the conditions the game would be played with. If you are making a mobile game for example, don’t just shrink the window down on your computer, actually put the game on a phone, you might see that your fingers are blocking something, or a button might be too hard to hit. So always test in context.
+
+An issue that I ran into when developing my game was that I was developing the game from the perspective I had sitting at my computer. When actually playing the game, everyone would be sitting further back from the screen. I realised the players, and some UI elements were quite hard to see. I reworked the UI design, and added outlines to players to increase their visibility.
+
+### 4. Develop Your Skills Outside of Games
+
+As the game progressed, I needed to start adding more sounds and art which I was leaving towards the end. I was drawing a lot of game focused pixel art. I felt that my skills progressed more when I was also drawing general pixel art, and not just assets for the game.
+
+Something similar happened when I was creating the sounds for the games. I was only looking towards games for inspiration, and although I had something that sounded fine, I wasn’t really happy with it. When I started looking at action movies, I started creating sounds that I really liked. So be open to inspiration from anywhere, especially outside of games. And if you are looking to develop your skills in games whether its code, art , sounds, writing, you should do it outside of games too because it will give you new ideas, and you’ll become more well rounded as a developer.
+
+### 5. Enjoy the Process, and Take Loads of Pictures
+
+Enjoy the process, and take loads, and loads of pictures along the way. Creating any game is challenging so make sure to find a pace and process that is sustainable for you, and something that you can have fun doing.
+
+If there's one thing I did more of was record and take screenshot of my game. I have this cool time lapse of myself making the art for one of the maps, and I wish, I did that for the other maps too. So record and take screenshot of your game while you're developing it. It's so fun to look back, and see how far the game has progressed.
+
+<Image path="/posts/courtyard_making_of.gif" />

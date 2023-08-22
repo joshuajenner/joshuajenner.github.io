@@ -7,7 +7,6 @@
 	import projects from "../data/projects.json";
 
 	export let data;
-	console.log(data.posts);
 </script>
 
 <main class="page">
@@ -35,6 +34,11 @@
 			<PostMini {...post} />
 		{/each}
 	</div>
+	<div class="posts_button">
+		<a href="{base}/blog">
+			<h4>View All</h4>
+		</a>
+	</div>
 </main>
 
 <style>
@@ -46,6 +50,26 @@
 		display: grid;
 		grid-template-columns: 1fr;
 		grid-gap: 1rem;
+	}
+
+	.posts_button {
+		flex-grow: 1;
+		display: flex;
+		align-items: end;
+		justify-content: end;
+		margin-top: 6rem;
+	}
+	.posts_button a {
+		display: block;
+		background-color: var(--main-highlight);
+		padding: 1rem 1.5rem;
+	}
+	.posts_button a:hover {
+		background-color: var(--light-highlight);
+	}
+	.posts_button a h4 {
+		margin: 0px;
+		color: white;
 	}
 
 	@media (min-width: 600px) {

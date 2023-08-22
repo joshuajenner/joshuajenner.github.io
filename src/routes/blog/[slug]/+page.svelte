@@ -1,7 +1,8 @@
 <script lang="ts">
+	import "./page.css";
+
 	import { assets, base } from "$app/paths";
 	export let data;
-	console.log(data);
 </script>
 
 <div class="page">
@@ -14,8 +15,10 @@
 	<div class="date">
 		<p>{data.meta.date}</p>
 	</div>
-
-	<svelte:component this={data.content} />
+	<hr class="section_rule" />
+	<div class="post_content">
+		<svelte:component this={data.content} />
+	</div>
 </div>
 
 <style>
@@ -31,5 +34,12 @@
 	}
 	.date p {
 		font-size: 1.1rem;
+		margin: 0px;
+	}
+	.section_rule {
+		margin: 2rem 0px 4rem 0px;
+	}
+	.post_content {
+		line-height: 1.45;
 	}
 </style>

@@ -1,9 +1,7 @@
 <script lang="ts">
-	// import { formatDate } from '$lib/utils'
-	// import * as config from '$lib/config'
+	import PostLarge from "../../components/post_large.svelte";
 
 	export let data;
-	console.log(data);
 </script>
 
 <div class="page">
@@ -11,4 +9,18 @@
 		<h1>BLOG</h1>
 		<hr class="section_rule" />
 	</div>
+
+	<div class="posts_box">
+		{#each data.posts as post}
+			<PostLarge {...post} />
+		{/each}
+	</div>
 </div>
+
+<style>
+	.posts_box {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-gap: 2rem;
+	}
+</style>
