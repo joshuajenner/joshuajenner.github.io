@@ -1,28 +1,13 @@
-<script>
+<script lang="ts">
 	import { assets, base } from "$app/paths";
 
 	import ProjectItem from "../components/project_item.svelte";
+	import PostMini from "../components/post_mini.svelte";
+
 	import projects from "../data/projects.json";
-	// let projects = [
-	// 	{
-	// 		title: "Project: Speed",
-	// 		image: "/projects/speed.jpg",
-	// 		release: "In Development - PC",
-	// 		links: ["https://github.com/joshuajenner/project-speed"],
-	// 		points: ["Created a Jet character controller", "Implemented a tile-based procedurally generated world", "Uses multi-threading to increase performance"],
-	// 	},
-	// 	{
-	// 		title: "Kojum",
-	// 		image: "/projects/kojum.jpg",
-	// 		release: "2022 - PC",
-	// 		links: ["https://heartfiregames.itch.io/kojum", "https://github.com/joshuajenner/kojum"],
-	// 		points: [
-	// 			"Implemented a character controller, and state machine",
-	// 			"Developed a full game flow from character customisation, to team select, map select, match restart, and pause",
-	// 			"Designed and created a local multiplayer UI that handles up to 8 players",
-	// 		],
-	// 	},
-	// ];
+
+	export let data;
+	console.log(data.posts);
 </script>
 
 <main class="page">
@@ -45,11 +30,33 @@
 		<h1>BLOG</h1>
 		<hr class="section_rule" />
 	</div>
+	<div class="posts_box">
+		{#each data.posts as post, i}
+			<PostMini {...post} />
+		{/each}
+	</div>
 </main>
 
 <style>
 	.projects_box {
 		display: grid;
 		grid-gap: 2rem;
+	}
+	.posts_box {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-gap: 1rem;
+	}
+
+	@media (min-width: 600px) {
+		.posts_box {
+			grid-template-columns: 1fr 1fr;
+		}
+	}
+
+	@media (min-width: 900px) {
+		.posts_box {
+			grid-template-columns: 1fr 1fr 1fr;
+		}
 	}
 </style>
