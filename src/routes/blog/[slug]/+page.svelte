@@ -1,15 +1,19 @@
 <script lang="ts">
 	import "./page.css";
-
 	import { assets, base } from "$app/paths";
+
 	export let data;
+
+	let baseUrl = "https://joshuajenner.dev";
+
 </script>
 
 <svelte:head>
 	<title>{data.meta.title}</title>
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content={data.meta.title} />
-	<meta property="og:image" content="{assets}{data.meta.hero}">
+	<meta property="og:image" content="{baseUrl}{data.meta.hero}">
+	<meta property="og:url" content="{baseUrl}/blog/{data.slug}">
 	<meta property="og:description" content="">
 
 	<meta name=”twitter:card” content=”summary_large_image”>
