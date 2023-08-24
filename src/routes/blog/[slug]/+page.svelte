@@ -22,7 +22,7 @@
 
 	<div class="back">
 		<a href="{base}/blog">
-			<h4>Back to Posts</h4>
+			<h4>Back to Blog</h4>
 		</a>
 	</div>
 </div>
