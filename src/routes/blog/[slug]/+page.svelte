@@ -14,9 +14,11 @@
 	<meta property="og:title" content={data.meta.title} />
 	<meta property="og:image" content="{baseUrl}{data.meta.hero}">
 	<meta property="og:url" content="{baseUrl}/blog/{data.slug}">
-	<meta property="og:description" content="">
+	<meta property="og:description" content={data.meta.description}>
 
-	<meta name=”twitter:card” content=”summary_large_image”>
+	<meta name="twitter:card" content=”summary_large_image”>
+	<meta name="twitter:site" content="@joshuajennerdev">
+	<meta name="twitter:creator" content="@joshuajennerdev">
 </svelte:head>
 
 

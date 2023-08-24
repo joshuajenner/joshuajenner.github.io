@@ -1,6 +1,6 @@
 ---
 title: 5 Tips For Making Your First Game
-description: 5 Tips For Making Your First Game
+description: For small teams or solo developers.
 date: "22-08-2023"
 published: true
 thumbnail: "/posts/5-things_thumb.jpg"
