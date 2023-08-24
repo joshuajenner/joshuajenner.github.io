@@ -5,6 +5,17 @@
 	export let data;
 </script>
 
+<svelte:head>
+	<title>{data.meta.title}</title>
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content={data.meta.title} />
+	<meta property="og:image" content="{assets}{data.meta.hero}">
+	<meta property="og:description" content="">
+
+	<meta name=”twitter:card” content=”summary_large_image”>
+</svelte:head>
+
+
 <div class="page">
 	<div class="hero">
 		<img alt="" src="{assets}{data.meta.hero}" />
