@@ -13,7 +13,8 @@ html {
 :root {
     /* Previous 0045d0 */
     /* #0000ec */
-  --main-highlight: #0045d0;
+    /* #0066c9 */
+  --main-highlight: #0066c9;
   --dark-highlight: #0000ec;
   --light-highlight: #1c95ff;
   --gold: #eda700;
