@@ -1,10 +1,18 @@
 [
+
     {
         "title": "Project: Speed",
         "image": "/projects/speed.jpg",
         "release": "In Development - PC",
         "links": ["https://joshuajennerdev.itch.io/project-speed", "https://github.com/joshuajenner/project-speed"],
         "points": ["Created a Jet character controller", "Implemented a tile-based procedurally generated world", "Uses multi-threading to increase performance"]
+    },
+    {
+        "title": "Crystal Warrior",
+        "image": "/projects/crystal.jpg",
+        "release": "2023 - PC",
+        "links": ["https://joshuajennerdev.itch.io/crystal-warrior", "https://github.com/joshuajenner/crystal-warrior-demo"],
+        "points": ["Created a 3rd person character controller", "Designed and implemented a set of melee combat abilities"]
     },
     {
         "title": "Kojum",
