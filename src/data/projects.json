@@ -1,6 +1,7 @@
 [
 
     {
+        "slug": "project-speed",
         "title": "Project: Speed",
         "image": "/projects/speed.jpg",
         "release": "In Development - PC",
@@ -8,6 +9,7 @@
         "points": ["Created a Jet character controller", "Implemented a tile-based procedurally generated world", "Uses multi-threading to increase performance"]
     },
     {
+        "slug": "crystal-warrior",
         "title": "Crystal Warrior",
         "image": "/projects/crystal.jpg",
         "release": "2023 - PC",
@@ -15,6 +17,7 @@
         "points": ["Created a 3rd person character controller", "Designed and implemented a set of melee combat abilities"]
     },
     {
+        "slug": "kojum",
         "title": "Kojum",
         "image": "/projects/kojum.jpg",
         "release": "2022 - PC",

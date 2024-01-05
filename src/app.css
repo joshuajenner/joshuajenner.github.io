@@ -83,6 +83,10 @@ main {
     fill: var(--light-highlight);
 }
 
+.svg_white {
+    fill: white;
+}
+
 .section_title {
     display: flex;
     align-items: center;
