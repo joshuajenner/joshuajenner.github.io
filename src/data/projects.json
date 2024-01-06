@@ -1,5 +1,17 @@
 [
 
+
+    {
+        "title": "Kojum",
+        "image": "/projects/kojum.jpg",
+        "release": "2022 - PC",
+        "links": ["https://heartfiregames.itch.io/kojum", "https://github.com/joshuajenner/kojum"],
+        "points": [
+            "Implemented a character controller, and state machine",
+            "Developed a full game flow from character customisation, to team select, map select, match restart, and pause",
+            "Designed and created a local multiplayer UI that handles up to 8 players"
+        ]
+    },
     {
         "title": "Project: Speed",
         "image": "/projects/speed.jpg",
@@ -13,16 +25,6 @@
         "release": "2023 - PC",
         "links": ["https://joshuajennerdev.itch.io/crystal-warrior", "https://github.com/joshuajenner/crystal-warrior-demo"],
         "points": ["Created a 3rd person character controller", "Designed and implemented a set of melee combat abilities"]
-    },
-    {
-        "title": "Kojum",
-        "image": "/projects/kojum.jpg",
-        "release": "2022 - PC",
-        "links": ["https://heartfiregames.itch.io/kojum", "https://github.com/joshuajenner/kojum"],
-        "points": [
-            "Implemented a character controller, and state machine",
-            "Developed a full game flow from character customisation, to team select, map select, match restart, and pause",
-            "Designed and created a local multiplayer UI that handles up to 8 players"
-        ]
     }
+    
 ]
