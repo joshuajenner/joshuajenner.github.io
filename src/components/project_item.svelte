@@ -5,7 +5,7 @@
 	export let links: Array<string>;
 	export let points: Array<string>;
 
-	import { assets } from "$app/paths";
+	import { assets, base } from "$app/paths";
 </script>
 
 <div class="project_item">
