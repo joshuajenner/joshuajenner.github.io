@@ -1,0 +1,11 @@
+---
+title: Godot Noise Tool
+image: /projects/noise_hero.png
+date: 2023
+type: Tool
+tech: [Godot Engine, GDScript]
+skills: [Tool Programming, UI Programming]
+---
+
+Adjust the parameters of a FastNoiseLite object, then save it as a custom resource or emit a signal with the noise to your game. 
+Includes a UI overlay for noise generation, and a sample scene that shows the noise as a texture.

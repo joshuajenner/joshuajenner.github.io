@@ -1,0 +1,13 @@
+---
+title: Kojum
+image: /projects/kojum_hero.png
+date: 2022
+type: Game
+tech: [Godot Engine, GDScript]
+skills: [Gameplay Programming & Design, UI Programming & Design, Pixel Art, Sound Design]
+---
+
+A local multiplayer mashup of martials arts and football. Solo developed part time over the course of 2 years. 
+Made to go through the process of creating a full game from start to finish, and learn Godot Engine.
+
+I learnt about controlling scope creep, task management, and version control.

@@ -14,9 +14,11 @@ html {
     /* Previous 0045d0 */
     /* #0000ec */
     /* #0066c9 */
-  --main-highlight: #0066c9;
+    /* #1c95ff */
+
+  --main-highlight: rgb(44, 70, 207);
   --dark-highlight: #0000ec;
-  --light-highlight: #1c95ff;
+  --light-highlight: rgb(65, 106, 254);
   --gold: #eda700;
   --text-dark: #222C35;
   --text-light: #585858;
@@ -40,6 +42,12 @@ h1 {
     display: inline-block;
     font-weight: 800;
     font-size: 40px;
+}
+
+h2 {
+    display: inline-block;
+    font-weight: 800;
+    font-size: 28px;
 }
 
 p {

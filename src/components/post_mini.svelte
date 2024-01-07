@@ -26,7 +26,7 @@
 
 	<div class="read">
 		<a href="{base}/blog/{slug}">
-			<h4>View</h4>
+			<h5>View</h5>
 		</a>
 	</div>
 </div>
@@ -56,12 +56,12 @@
 	.read a {
 		display: block;
 		background-color: var(--main-highlight);
-		padding: 1rem 1.5rem;
+		padding: 0.75rem 1rem;
 	}
 	.read a:hover {
 		background-color: var(--light-highlight);
 	}
-	.read a h4 {
+	.read a h5 {
 		margin: 0px;
 		color: white;
 	}
