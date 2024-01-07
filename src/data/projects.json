@@ -3,7 +3,7 @@
         "title": "Kojum",
         "image": "/projects/kojum.jpg",
         "release": "2022 - PC",
-        "links": ["https://joshuajenner.dev/projects/kojum", "https://github.com/joshuajenner/kojum", "https://heartfiregames.itch.io/kojum"],
+        "links": ["/projects/kojum", "https://github.com/joshuajenner/kojum", "https://heartfiregames.itch.io/kojum"],
         "points": [
             "Implemented a character controller, and state machine",
             "Developed a full game flow from character customisation, to team select, map select, match restart, and pause",
@@ -14,7 +14,7 @@
         "title": "FastNoiseLite Tool",
         "image": "/projects/noise_thumb.png",
         "release": "2023 - PC",
-        "links": ["https://joshuajenner.dev/projects/noise-tool", "https://github.com/joshuajenner/fastnoiselite-tool", "https://godotengine.org/asset-library/asset/2069"],
+        "links": ["/projects/noise-tool", "https://github.com/joshuajenner/fastnoiselite-tool", "https://godotengine.org/asset-library/asset/2069"],
         "points": ["Created a tool for debugging noise"]
     },
     {
