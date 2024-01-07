@@ -5,7 +5,7 @@
 	export let links: Array<string>;
 	export let points: Array<string>;
 
-	import { assets } from "$app/paths";
+	import { assets, base } from "$app/paths";
 </script>
 
 <div class="project_item">
@@ -65,7 +65,7 @@
 						<h5>Download</h5>
 					</a>
 				{:else}
-					<a href={link}>
+					<a href="{base}{link}">
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 							<path
 								class="svg_white"
