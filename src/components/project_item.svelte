@@ -112,14 +112,13 @@
 		display: flex;
 		justify-content: end;
 		align-items: center;
-		grid-gap: 16px;
+		grid-gap: 8px;
 		flex-grow: 1;
 	}
 	.links a {
 		display: flex;
 		align-items: center;
-		grid-gap: 0.25rem;
-		height: 100%;
+		grid-gap: 8px;
 		background-color: var(--main-highlight);
 		padding: 0.5rem 0.75rem;
 		width: auto;
@@ -128,13 +127,12 @@
 		background-color: var(--light-highlight);
 	}
 	.links a h5 {
-		margin: 0px;
+		margin: 1px 0px 0px;
 		color: white;
 	}
 	.links a svg {
-		height: 100%;
+		height: 16px;
 		width: auto;
-		padding: 0.25rem;
 	}
 
 	@media (min-width: 900px) {
