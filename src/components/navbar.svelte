@@ -54,7 +54,7 @@
 	}
 
 	#nav_title {
-		color: #222c35;
+		color: var(--text-light);
 		font-family: input-mono, monospace;
 		font-weight: 800;
 		font-style: italic;
@@ -78,7 +78,7 @@
 	}
 
 	nav ul a {
-		color: #2e383d;
+		color: var(--text-light);
 	}
 
 	#socials {

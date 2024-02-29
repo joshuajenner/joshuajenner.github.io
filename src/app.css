@@ -16,12 +16,12 @@ html {
     /* #0066c9 */
     /* #1c95ff */
 
-  --main-highlight: rgb(44, 70, 207);
+  --main-highlight: rgb(65, 106, 254);
   --dark-highlight: #0000ec;
-  --light-highlight: rgb(65, 106, 254);
+  --light-highlight: rgb(93, 128, 255);
   --gold: #eda700;
-  --text-dark: #222C35;
-  --text-light: #585858;
+  --text-dark: rgb(235, 235, 235);
+  --text-light: rgb(245, 245, 245);
 }
 
 img {
@@ -36,6 +36,10 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--text-dark);
     font-family: input-mono, monospace;
     font-style: italic;
+}
+
+p, li {
+    color: var(--text-light);
 }
 
 h1 {
@@ -58,7 +62,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
     width: 100%;
-    background-color: rgb(248, 248, 248);
+    background-color: rgb(24, 24, 24);
 }
 
 main {
