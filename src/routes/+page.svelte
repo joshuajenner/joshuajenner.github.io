@@ -1,12 +1,12 @@
 <script lang="ts">
-	import { assets, base } from "$app/paths";
+	// import { assets, base } from "$app/paths";
 
 	import ProjectItem from "../components/project_item.svelte";
-	import PostMini from "../components/post_mini.svelte";
+	// import PostMini from "../components/post_mini.svelte";
 
 	import projects from "../data/projects.json";
 
-	export let data;
+	// export let data;
 </script>
 
 <main class="page">
@@ -46,11 +46,11 @@
 		display: grid;
 		grid-gap: 2rem;
 	}
-	.posts_box {
+	/* .posts_box {
 		display: grid;
 		grid-template-columns: 1fr;
 		grid-gap: 1rem;
-	}
+	} */
 
 	/* .posts_button {
 		flex-grow: 1;
