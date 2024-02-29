@@ -33,7 +33,7 @@
 		<div class="links">
 			{#each links as link, i}
 				{#if link.includes("github")}
-					<a href={link}>
+					<a href={link} target="_blank">
 						<svg viewBox="0 0 98 96" xmlns="http://www.w3.org/2000/svg"
 							><path
 								class="svg_white"
@@ -45,7 +45,7 @@
 						<h5>Code</h5>
 					</a>
 				{:else if link.includes("https://")}
-				<a href="{link}">
+				<a href="{link}" target="_blank">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 						<path
 							class="svg_white"
