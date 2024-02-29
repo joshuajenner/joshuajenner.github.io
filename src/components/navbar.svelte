@@ -6,8 +6,8 @@
 	<ul class="page">
 		<li><a href="{base}/" id="nav_title">JJ<span>D</span></a></li>
 		<div id="socials">
-			<li>
-				<!-- Youtube -->
+			<!-- <li>
+				 Youtube
 				<a href="https://www.youtube.com/channel/UCyizGS2XtfLldHkQwF0NC1w">
 					<svg viewBox="0 0 159 110" xmlns="http://www.w3.org/2000/svg"
 						><path
@@ -18,7 +18,7 @@
 				</a>
 			</li>
 			<li>
-				<!-- Twitter -->
+				 Twitter
 				<a href="https://twitter.com/joshuajennerdev">
 					<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 248 204">
 						<path
@@ -27,7 +27,7 @@
 						/>
 					</svg>
 				</a>
-			</li>
+			</li> -->
 			<li>
 				<!-- Linkedin -->
 				<a href="https://www.linkedin.com/in/joshuajennerdev/">

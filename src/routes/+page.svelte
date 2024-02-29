@@ -12,7 +12,7 @@
 <main class="page">
 	<div id="hero_banner">
 		<h1 id="hero_title">JOSHUA JENNER</h1>
-		<p>Games Programmer</p>
+		<p>Software Developer</p>
 	</div>
 
 	<div class="section_title">
@@ -25,7 +25,7 @@
 		{/each}
 	</div>
 
-	<div class="section_title">
+	<!-- <div class="section_title">
 		<h1>BLOG</h1>
 		<hr class="section_rule" />
 	</div>
@@ -38,7 +38,7 @@
 		<a href="{base}/blog">
 			<h4>View All</h4>
 		</a>
-	</div>
+	</div> -->
 </main>
 
 <style>
@@ -52,7 +52,7 @@
 		grid-gap: 1rem;
 	}
 
-	.posts_button {
+	/* .posts_button {
 		flex-grow: 1;
 		display: flex;
 		align-items: end;
@@ -82,5 +82,5 @@
 		.posts_box {
 			grid-template-columns: 1fr 1fr 1fr;
 		}
-	}
+	} */
 </style>
