@@ -1,9 +1,9 @@
 [
     {
-        "title": "Kojum",
+        "title": "Decka",
         "image": "/projects/kojum.jpg",
-        "release": "2022 - PC",
-        "links": ["/projects/kojum", "https://github.com/joshuajenner/kojum", "https://heartfiregames.itch.io/kojum"],
+        "release": "2022",
+        "links": ["/projects/decka", "https://github.com/joshuajenner/decka-client", "https://romantic-bardeen-dffbd3.netlify.app/"],
         "points": [
             "Implemented a character controller, and state machine",
             "Developed a full game flow from character customisation, to team select, map select, match restart, and pause",
@@ -11,24 +11,10 @@
         ]
     },
     {
-        "title": "FastNoiseLite Tool",
+        "title": "Tic Tac Toe",
         "image": "/projects/noise_thumb.png",
-        "release": "2023 - PC",
-        "links": ["/projects/noise-tool", "https://github.com/joshuajenner/fastnoiselite-tool", "https://godotengine.org/asset-library/asset/2069"],
+        "release": "2023",
+        "links": ["/projects/ttt", "https://github.com/joshuajenner/svelte-ttt", "https://objective-jackson-bd6786.netlify.app/"],
         "points": ["Created a tool for debugging noise"]
-    },
-    {
-        "title": "Project: Speed",
-        "image": "/projects/speed.jpg",
-        "release": "In Development - PC",
-        "links": ["https://github.com/joshuajenner/project-speed", "https://joshuajennerdev.itch.io/project-speed"],
-        "points": ["Created a Jet character controller", "Implemented a tile-based procedurally generated world", "Uses multi-threading to increase performance"]
-    },
-    {
-        "title": "Crystal Warrior",
-        "image": "/projects/crystal.jpg",
-        "release": "2023 - PC",
-        "links": ["https://github.com/joshuajenner/crystal-warrior-demo", "https://joshuajennerdev.itch.io/crystal-warrior"],
-        "points": ["Created a 3rd person character controller", "Designed and implemented a set of melee combat abilities"]
     }
 ]
