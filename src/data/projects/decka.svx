@@ -1,5 +1,5 @@
 ---
-title: Kojum
+title: Decka
 image: /projects/kojum_hero.png
 date: 2022
 type: Game

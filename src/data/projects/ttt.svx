@@ -1,5 +1,5 @@
 ---
-title: Godot Noise Tool
+title: Tic Tac Toe
 image: /projects/noise_hero.png
 date: 2023
 type: Tool
