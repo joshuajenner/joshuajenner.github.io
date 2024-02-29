@@ -5,9 +5,9 @@
         "tags": ["svelte", "firebase"],
         "links": ["/projects/decka", "https://github.com/joshuajenner/decka-client", "https://romantic-bardeen-dffbd3.netlify.app/"],
         "points": [
-            "Implemented a character controller, and state machine",
-            "Developed a full game flow from character customisation, to team select, map select, match restart, and pause",
-            "Designed and created a local multiplayer UI that handles up to 8 players"
+            "Card based note taking app",
+            "Authentication and Databse implemented with Firebase",
+            "Create cards in decks that can be displayed in multiple views"
         ]
     },
     {
@@ -17,7 +17,8 @@
         "links": ["/projects/ttt", "https://github.com/joshuajenner/svelte-ttt", "https://objective-jackson-bd6786.netlify.app/"],
         "points": [
             "Real time turn based game with web sockets",
-            "Login with Firebase"
+            "Authentication implemented with Firebase",
+            "Create, Join, Play, and Watch games in real time"
         ]
     }
 ]
