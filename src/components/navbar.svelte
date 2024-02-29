@@ -50,7 +50,7 @@
 
 <style>
 	nav {
-		border-bottom: 1px solid rgb(210, 210, 210);
+		border-bottom: 1px solid rgb(0, 0, 0);
 	}
 
 	#nav_title {

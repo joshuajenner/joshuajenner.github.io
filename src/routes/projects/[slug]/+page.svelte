@@ -57,7 +57,7 @@
 	{/if}
 
 	<div class="back">
-		<a href={base}>
+		<a href={"/"}>
 			<h4>Back Home</h4>
 		</a>
 	</div>

@@ -1,6 +1,6 @@
 ---
 title: Tic Tac Toe
-image: /projects/noise_hero.png
+image: /projects/ttt_hero.png
 date: 2023
 type: Tool
 tech: [Godot Engine, GDScript]

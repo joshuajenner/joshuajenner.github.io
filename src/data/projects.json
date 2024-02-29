@@ -2,7 +2,7 @@
     {
         "title": "Decka",
         "image": "/projects/decka_thumb.png",
-        "release": "2022",
+        "tags": ["svelte", "firebase"],
         "links": ["/projects/decka", "https://github.com/joshuajenner/decka-client", "https://romantic-bardeen-dffbd3.netlify.app/"],
         "points": [
             "Implemented a character controller, and state machine",
@@ -12,9 +12,12 @@
     },
     {
         "title": "Tic Tac Toe",
-        "image": "/projects/noise_thumb.png",
-        "release": "2023",
+        "image": "/projects/ttt_thumb.png",
+        "tags": ["svelte", "socket.io"],
         "links": ["/projects/ttt", "https://github.com/joshuajenner/svelte-ttt", "https://objective-jackson-bd6786.netlify.app/"],
-        "points": ["Created a tool for debugging noise"]
+        "points": [
+            "Real time turn based game with web sockets",
+            "Login with Firebase"
+        ]
     }
 ]

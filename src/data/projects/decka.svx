@@ -1,6 +1,6 @@
 ---
 title: Decka
-image: /projects/kojum_hero.png
+image: /projects/decka_hero.png
 date: 2022
 type: Game
 tech: [Godot Engine, GDScript]

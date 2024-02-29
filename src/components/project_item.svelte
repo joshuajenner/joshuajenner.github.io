@@ -1,7 +1,7 @@
 <script lang="ts">
 	export let title: string;
 	export let image: string;
-	export let release: string;
+	export let tags: Array<string>;;
 	export let links: Array<string>;
 	export let points: Array<string>;
 
@@ -19,8 +19,10 @@
 					<h1>{title}</h1>
 				</div>
 			</div>
-			<div class="release">
-				<p>{release}</p>
+			<div class="tags">
+				{#each tags as tag, i}
+					<div class="tag {tag.replace(".", "_")}">{tag}</div>
+				{/each}
 			</div>
 			<div class="points">
 				<ul>
@@ -73,15 +75,32 @@
 <style>
 	h1 {
 		font-size: 32px;
-	}
-	h1,
-	p {
 		margin: 0px;
 	}
-	.release p {
+	.tags {
+		margin: 8px 0px;
+	}
+	div.tag {
+		display: inline-block;
+		text-transform: capitalize;
+		padding: 4px 8px;
+		margin: 0px 6px 0px 0px;
+		color: white;
+		font-size: 80%;
+	}
+	.tag.svelte {
+		background-color: #ff3e00;
+	}
+	.tag.firebase {
+		background-color: #f68410;
+	}
+	.tag.socket_io {
+		background-color: #1eaa8b;
+	}
+	/* .release p {
 		margin-top: 0.5rem;
 		color: var(--text-light);
-	}
+	} */
 	.img img {
 		width: 100%;
 	}
