@@ -16,10 +16,10 @@ html {
     /* #0066c9 */
     /* #1c95ff */
 
-  --main-highlight: rgb(65, 106, 254);
-  --dark-highlight: #0000ec;
-  --light-highlight: rgb(93, 128, 255);
+  --highlight-main: rgb(27, 50, 83);
+  --highlight-hover: rgb(30, 70, 128);
   --gold: #eda700;
+  --gold-hover: #ffb300;
   --text-dark: rgb(235, 235, 235);
   --text-light: rgb(245, 245, 245);
 }
@@ -62,7 +62,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
     width: 100%;
-    background-color: rgb(18, 18, 18);
+    background-color: #010409;
 }
 
 main {
@@ -87,13 +87,12 @@ main {
     text-align: end;
 }
 
-.svg_fill {
-    /* fill: #2E383D; */
-    fill: var(--main-highlight);
+/* .svg_fill {
+    fill: var(--highlight-main);
 }
 *:hover > .svg_fill {
-    fill: var(--light-highlight);
-}
+    fill: var(--highlight-hover);
+} */
 
 .svg_white {
     fill: white;

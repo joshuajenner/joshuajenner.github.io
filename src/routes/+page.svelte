@@ -61,11 +61,11 @@
 	}
 	.posts_button a {
 		display: block;
-		background-color: var(--main-highlight);
+		background-color: var(--highlight-main);
 		padding: 1rem 1.5rem;
 	}
 	.posts_button a:hover {
-		background-color: var(--light-highlight);
+		background-color: var(--highlight-hover);
 	}
 	.posts_button a h4 {
 		margin: 0px;

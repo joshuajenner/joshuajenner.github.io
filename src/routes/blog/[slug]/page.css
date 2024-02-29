@@ -1,9 +1,9 @@
 .post_content a {
-    color: var(--main-highlight);
+    color: var(--highlight-main);
     text-decoration: none;
 }
 .post_content a:hover {
-    color: var(--light-highlight);
+    color: var(--highlight-hover);
 }
 .post_content a:visited {
     color: none;

@@ -128,12 +128,12 @@
 		display: flex;
 		align-items: center;
 		grid-gap: 8px;
-		background-color: var(--main-highlight);
+		background-color: var(--highlight-main);
 		padding: 0.5rem 0.75rem;
 		width: auto;
 	}
 	.links a:hover {
-		background-color: var(--light-highlight);
+		background-color: var(--highlight-hover);
 	}
 	.links a h5 {
 		margin: 1px 0px 0px;

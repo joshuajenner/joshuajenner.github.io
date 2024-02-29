@@ -55,11 +55,11 @@
 	}
 	.read a {
 		display: block;
-		background-color: var(--main-highlight);
+		background-color: var(--highlight-main);
 		padding: 0.75rem 1rem;
 	}
 	.read a:hover {
-		background-color: var(--light-highlight);
+		background-color: var(--highlight-hover);
 	}
 	.read a h5 {
 		margin: 0px;
