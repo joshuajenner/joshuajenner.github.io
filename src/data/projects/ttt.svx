@@ -1,10 +1,7 @@
 ---
 title: Tic Tac Toe
 image: /projects/ttt_hero.png
-date: 2023
-type: Tool
-tech: [Godot Engine, GDScript]
-skills: [Tool Programming, UI Programming]
+tags: [svelte, socket.io, firebase]
 ---
 
 Adjust the parameters of a FastNoiseLite object, then save it as a custom resource or emit a signal with the noise to your game. 

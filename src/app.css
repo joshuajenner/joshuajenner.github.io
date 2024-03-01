@@ -33,7 +33,7 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: var(--text-dark);
+    color: var(--text-light);
     font-family: input-mono, monospace;
     font-style: italic;
 }
@@ -52,10 +52,6 @@ h2 {
     display: inline-block;
     font-weight: 800;
     font-size: 28px;
-}
-
-p {
-    color: var(--text-dark);
 }
 
 body {
@@ -173,6 +169,22 @@ main {
     grid-row-end: span 2;
 }
 
+.tag {
+    display: inline-block;
+    text-transform: capitalize;
+    padding: 4px 8px;
+    color: white;
+    font-size: 80%;
+}
+.tag.svelte {
+    background-color: #ff3e00;
+}
+.tag.firebase {
+    background-color: #f68410;
+}
+.tag.socket_io {
+    background-color: #1eaa8b;
+}
 
 footer {
     margin-top: 64px;

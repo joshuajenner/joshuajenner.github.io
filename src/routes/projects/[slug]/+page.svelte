@@ -24,28 +24,9 @@
 		<img id="hero" alt="" src="{assets}{data.meta.image}" />
 		<h1>{data.meta.title}</h1>
 		<div class="tags">
-			<div class="tag">{data.meta.date}</div>
-			<div class="tag">{data.meta.type}</div>
-		</div>
-		<div class="section_split">
-			<div class="section">
-				<div class="section_title">
-					<h2>Tech</h2>
-					<hr class="section_rule" />
-				</div>
-				{#each data.meta.tech as tech}
-					<p>{tech}</p>
-				{/each}
-			</div>
-			<div class="section">
-				<div class="section_title">
-					<h2>Skills</h2>
-					<hr class="section_rule" />
-				</div>
-				{#each data.meta.skills as skill}
-					<p>{skill}</p>
-				{/each}
-			</div>
+			{#each data.meta.tags as tag}
+				<div class="tag {tag.replace(".", "_")}">{tag}</div>
+			{/each}
 		</div>
 		<div class="section_title">
 			<h2>Info</h2>
@@ -66,9 +47,6 @@
 <style>
 	.page {
 		margin-top: 2rem;
-	}
-	p {
-		margin: 0.5rem 0px;
 	}
 	.content {
 		line-height: 1.5rem;
@@ -101,9 +79,8 @@
 		grid-gap: 0.5rem;
 	}
 	.tag {
-		background-color: #e2e8f0;
-		padding: 0.25rem 0.5rem;
-		color: #475569;
+		font-size: 100%;
+		padding: 6px 10px;
 	}
 	.section_split {
 		display: grid;

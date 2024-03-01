@@ -78,24 +78,9 @@
 		margin: 0px;
 	}
 	.tags {
+		display: flex;
+		grid-gap: 0.5rem;
 		margin: 8px 0px;
-	}
-	div.tag {
-		display: inline-block;
-		text-transform: capitalize;
-		padding: 4px 8px;
-		margin: 0px 6px 0px 0px;
-		color: white;
-		font-size: 80%;
-	}
-	.tag.svelte {
-		background-color: #ff3e00;
-	}
-	.tag.firebase {
-		background-color: #f68410;
-	}
-	.tag.socket_io {
-		background-color: #1eaa8b;
 	}
 	/* .release p {
 		margin-top: 0.5rem;
