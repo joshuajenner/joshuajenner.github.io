@@ -13,8 +13,8 @@
     {
         "title": "Tic Tac Toe",
         "image": "/projects/ttt_thumb.png",
-        "tags": ["socket.io", "firebase"],
-        "links": ["/projects/ttt", "https://github.com/joshuajenner/svelte-ttt", "https://objective-jackson-bd6786.netlify.app/"],
+        "tags": ["svelte", "socket.io", "firebase"],
+        "links": ["https://github.com/joshuajenner/svelte-ttt", "https://objective-jackson-bd6786.netlify.app/"],
         "points": [
             "Real time turn based game with web sockets",
             "Authentication implemented with Firebase",
