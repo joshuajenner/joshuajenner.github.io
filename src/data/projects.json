@@ -3,7 +3,7 @@
         "title": "Decka",
         "image": "/projects/decka_thumb.png",
         "tags": ["svelte", "firebase"],
-        "links": ["/projects/decka", "https://github.com/joshuajenner/decka-client", "https://romantic-bardeen-dffbd3.netlify.app/"],
+        "links": ["https://github.com/joshuajenner/decka-client", "https://romantic-bardeen-dffbd3.netlify.app/"],
         "points": [
             "Card based note taking app",
             "Authentication and Databse implemented with Firebase",
@@ -13,7 +13,7 @@
     {
         "title": "Tic Tac Toe",
         "image": "/projects/ttt_thumb.png",
-        "tags": ["svelte", "socket.io", "firebase"],
+        "tags": ["socket.io", "firebase"],
         "links": ["/projects/ttt", "https://github.com/joshuajenner/svelte-ttt", "https://objective-jackson-bd6786.netlify.app/"],
         "points": [
             "Real time turn based game with web sockets",
