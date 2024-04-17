@@ -4,15 +4,4 @@ image: /projects/ttt_hero.png
 tags: [svelte, socket.io, firebase]
 ---
 
-Adjust the parameters of a FastNoiseLite object, then save it as a custom resource or emit a signal with the noise to your game. 
-Includes a UI overlay for noise generation, and a sample scene that shows the noise as a texture.
-
-I was building a project that would require the use of noise. The Godot Engine provides a FastNoiseLite class that allows the user
-to generate some noise for their game. There are multiple properties that can be adjusted, and I didn't know what each of
-them did. I wanted to be able to see how adjusting each property changed the noise in real time so that I can understand them, 
-and find the best noise configuration for my game.
-
-I made a GUI tool to allow me to do just that. I wanted to make a tool that could be used by others so it needed to be polished and
-generic in use. I read the documentation and provided controls that matched the properties. Floats and Ints get line edits, and Enums
-get dropdowns which stopped the user from entering faulty values. I also included the ability to randomise properties. The user could
-also lock certain properties and only randomise select values.
+Uses socket.io to create a real time tic taco toe game. Users can login create, view, and join rooms. Games are played in real time.
