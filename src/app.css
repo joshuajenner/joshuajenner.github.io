@@ -177,13 +177,13 @@ main {
     font-size: 80%;
 }
 .tag.svelte {
-    background-color: #ff3e00;
+    background-color: #cc3300;
 }
 .tag.firebase {
-    background-color: #f68410;
+    background-color: #db7612;
 }
 .tag.socket_io {
-    background-color: #1eaa8b;
+    background-color: #11ad8b;
 }
 
 footer {

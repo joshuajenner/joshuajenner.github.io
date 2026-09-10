@@ -1,5 +1,6 @@
 <script lang="ts">
 	import ProjectItem from "../components/project_item.svelte";
+	import works from "../data/works.json";
 	import projects from "../data/projects.json";
 </script>
 
@@ -10,11 +11,21 @@
 	</div>
 
 	<div class="section_title">
+		<h1>WORK</h1>
+		<hr class="section_rule" />
+	</div>
+	<div class="projects_box">
+		{#each works as work}
+			<ProjectItem {...work} />
+		{/each}
+	</div>
+
+	<div class="section_title">
 		<h1>PROJECTS</h1>
 		<hr class="section_rule" />
 	</div>
 	<div class="projects_box">
-		{#each projects as project, i}
+		{#each projects as project}
 			<ProjectItem {...project} />
 		{/each}
 	</div>
