@@ -21,8 +21,7 @@
 
 <style>
 	nav {
-		background-color: var(--highlight-main);
-		border-bottom: 1px solid rgb(0, 0, 0);
+		border-bottom: 2px solid rgba(255, 255, 255, 0.1);
 	}
 
 	#nav_title {

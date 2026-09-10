@@ -16,7 +16,7 @@ html {
     /* #0066c9 */
     /* #1c95ff */
 
-  --highlight-main: rgb(27, 50, 83);
+  --highlight-main: #398cd6;
   --highlight-hover: rgb(30, 70, 128);
   --gold: #eda700;
   --gold-hover: #ffb300;
@@ -58,7 +58,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
     width: 100%;
-    background-color: #010409;
+    background-color: #101010;
 }
 
 main {
@@ -107,7 +107,7 @@ main {
     width: auto;
     flex-grow: 1;
     border: 0px;
-    background: var(--gold);
+    background: rgba(255, 255, 255, 0.2);
 }
 
 .row {
