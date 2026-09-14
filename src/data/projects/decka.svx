@@ -1,7 +1,0 @@
----
-title: Decka
-image: /projects/decka_hero.png
-tags: [svelte, firebase]
----
-
-A task management app.

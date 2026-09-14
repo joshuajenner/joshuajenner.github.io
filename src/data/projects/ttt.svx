@@ -1,7 +1,0 @@
----
-title: Tic Tac Toe
-image: /projects/ttt_hero.png
-tags: [svelte, socket.io, firebase]
----
-
-Uses socket.io to create a real time tic taco toe game. Users can login create, view, and join rooms. Games are played in real time.
