@@ -2,6 +2,8 @@
     import "./layout.css";
     import favicon from "$lib/assets/favicon.ico";
 
+	export const prerender = true;
+	
     let { children } = $props();
 </script>
 
