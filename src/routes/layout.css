@@ -1,57 +1,13 @@
-@import 'tailwindcss';
-
-@font-face {
-    font-family: 'ArealMono';
-    src: url('$lib/fonts/ABCArealMono-Regular.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'ArealMono';
-    src: url('$lib/fonts/ABCArealMono-BoldItalic.woff2') format('woff2');
-    font-weight: 700;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'ArealMono';
-    src: url('$lib/fonts/ABCArealMono-Bold.woff2') format('woff2');
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Areal';
-    src: url('$lib/fonts/ABCAreal-Regular.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Areal';
-    src: url('$lib/fonts/ABCAreal-Bold.woff2') format('woff2');
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-}
-
-
-* {
-    font-family: "Areal";
-    color: var(--color-gray-50);
-}
+@import "tailwindcss";
 
 body {
     background-color: var(--color-slate-900);
+    font-family: Roboto;
+    color: var(--color-gray-50);
 }
 
 .page {
-    max-width: 1000px;
+    max-width: var(--breakpoint-lg);
     padding-left: 1em;
     padding-right: 1em;
     margin: auto;
@@ -63,10 +19,29 @@ body {
     font-style: italic;
 }
 
-h2 {
-    font-family: ArealMono;
-    font-size: 0.8rem;
+h1 {
+    font-family: input-mono;
     font-weight: bold;
+    font-style: italic;
+}
+
+.small-title {
+    font-family: input-mono;
+    font-weight: bold;
+    font-size: 0.8rem;
+    font-style: normal;
     text-transform: uppercase;
-    color: var(--color-slate-400)
+    color: var(--color-slate-400);
+}
+
+.main-button {
+    font-family: input-mono;
+    font-weight: bold;
+    background-color: var(--color-sky-700);
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+.main-button:hover {
+    background-color: var(--color-sky-600);
 }
