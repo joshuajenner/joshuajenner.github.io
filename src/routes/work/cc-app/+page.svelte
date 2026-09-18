@@ -13,11 +13,11 @@
     <p>
         This is an online multiplayer quiz app that has launched on <a class="workpage-link" href="https://play.google.com/store/apps/details?id=com.hkmu.qess" target="_blank">Google Play</a>. 
         Students would be able join or create rooms to play together. In the room lobby, they would select which role they
-        wanted to play. When the quizz has started, the students would watch 3D animations of medical scenarios. They would then discuss with each other, and answers questions based on what they saw.
+        wanted to play. When the quiz has started, the students would watch 3D animations of medical scenarios. They would then discuss with each other, and answers questions based on what they saw.
     </p>
     <br />
     <p>
-        This app was created in partnership with local universities in Hong Kong. I participated in client meetings to discuss the scope of the project. The client provided UI mockups, quizz content,
+        This app was created in partnership with local universities in Hong Kong. I participated in client meetings to discuss the scope of the project. The client provided UI mockups, quiz content,
         and official logos. My coworkers provided the 3D models. I developed the functionality of the app. Some notable functionality includes: authentication, account customization, a chat function.
     </p>
 </Workpage>
