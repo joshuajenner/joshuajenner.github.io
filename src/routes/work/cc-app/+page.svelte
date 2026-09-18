@@ -11,7 +11,8 @@
 
 <Workpage title="CareConnect QESS" image={ccappimage} screenshots={[Tutorial, GameRooms, Lobby, Question, Discussion, Feedback]} skills={["Unity", "C#", "Firebase"]}>
     <p>
-        This is an online multiplayer quiz app that has launched on Google Play. Students would be able join or create rooms to play together. In the room lobby, they would select which role they
+        This is an online multiplayer quiz app that has launched on <a class="workpage-link" href="https://play.google.com/store/apps/details?id=com.hkmu.qess" target="_blank">Google Play</a>. 
+        Students would be able join or create rooms to play together. In the room lobby, they would select which role they
         wanted to play. When the quizz has started, the students would watch 3D animations of medical scenarios. They would then discuss with each other, and answers questions based on what they saw.
     </p>
     <br />

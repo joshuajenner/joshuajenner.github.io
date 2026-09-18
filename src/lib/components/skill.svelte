@@ -16,6 +16,9 @@
     import Unity from "$lib/icons/unity.svelte";
     import Firebase from "$lib/icons/firebase.svelte";
     import Hexagon from "$lib/icons/hexagon.svelte";
+    import Supabase from "$lib/icons/supabase.svelte";
+    import Github from "$lib/icons/github.svelte";
+    import Nosql from "$lib/icons/nosql.svelte";
 
     let { id } = $props();
 </script>
@@ -56,6 +59,12 @@
             <Unity />
         {:else if id === "Firebase"}
             <Firebase />
+        {:else if id === "Supabase"}
+            <Supabase />
+        {:else if id === "GitHub"}
+            <Github />
+        {:else if id === "NoSQL"}
+            <Nosql />
         {:else}
             <Hexagon />
         {/if}
@@ -81,5 +90,6 @@
         height: 16px;
         width: 16px;
         fill: var(--color-slate-300);
+        color: var(--color-slate-300);
     }
 </style>

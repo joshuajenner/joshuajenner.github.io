@@ -45,3 +45,11 @@ h1 {
 .main-button:hover {
     background-color: var(--color-sky-600);
 }
+
+.workpage-link {
+    color: var(--color-sky-500);
+}
+.workpage-link:hover {
+    color: var(--color-sky-400);
+    text-decoration: underline;
+}

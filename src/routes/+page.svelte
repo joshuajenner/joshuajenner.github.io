@@ -1,7 +1,9 @@
 <script lang="ts">
     import CCApp from "$lib/images/cc_app/Scenario_1_003.jpg";
     import CCDash from "$lib/images/cc_dash/cc_dashboard_001.png";
+    import GDWaypoint from "$lib/images/gdwaypoint/home.png";
     import Skill from "$lib/components/skill.svelte";
+    import Topography from "$lib/images/patterns/topography.svelte";
 
     interface Work {
         title: string;
@@ -9,33 +11,51 @@
         skills: string[];
         description: string;
         points: string[];
-        playstore: string;
         readmore: string;
+        website: string;
+        playstore: string;
     }
 
     const works: Work[] = [
         {
             title: "CareConnect Dashboard",
             image: CCDash,
-            skills: ["React", "MUI", "Firebase"],
+            skills: ["React", "Next.js", "MUI", "Firebase", "NoSQL"],
             description: "Dashboard For Professors",
-            points: [
-                "Developed for university professors in Hong Kong.",
-                "View active rooms, and students' answers.",
-                "Manage rooms, and students.",
-                "View reports on students' activity.",
-            ],
-            playstore: "",
+            points: ["Developed for university professors in Hong Kong.", "View active rooms, and students' answers.", "Manage rooms, and students.", "View reports on students' activity."],
             readmore: "/work/cc-dashboard",
+            website: "",
+            playstore: "",
         },
         {
             title: "QESS CareConnect",
             image: CCApp,
-            skills: ["Unity", "C#", "Firebase"],
+            skills: ["Unity", "C#", "Firebase", "NoSQL"],
             description: "Online Multiplayer Quiz Mobile App",
             points: ["Developed for university students in Hong Kong.", "Create and join private or public rooms.", "Chat and vote about questions.", "View summaries and reports after the session."],
-            playstore: "https://play.google.com/store/apps/details?id=com.hkmu.qess",
             readmore: "/work/cc-app",
+            website: "",
+            playstore: "https://play.google.com/store/apps/details?id=com.hkmu.qess",
+        },
+        {
+            title: "Gamedev Waypoint",
+            image: GDWaypoint,
+            skills: ["Svelte", "SvelteKit", "Supabase", "PostgreSQL"],
+            description: "Information for Game Developers",
+            points: ["Polished but still work in progress.", "Lists publishers for game developers."],
+            readmore: "/work/gdwaypoint",
+            website: "https://www.gdwaypoint.com/",
+            playstore: "",
+        },
+        {
+            title: "This site",
+            image: "",
+            skills: ["Svelte", "SvelteKit", "Tailwind CSS", "GitHub"],
+            description: "Welcome!",
+            points: [],
+            readmore: "",
+            website: "",
+            playstore: "",
         },
     ];
 </script>
@@ -95,28 +115,53 @@
         <div class="works">
             {#each works as work}
                 <div class="work relative">
-                    <a href={work.readmore} class="image-box hover:border-2 hover:border-sky-600">
-                        <img src={work.image} alt="" />
-                    </a>
-                    <div class="content">
-                        <a href={work.readmore} class="hover:underline">
-                            <h1 class="text-3xl">{work.title}</h1>
+                    {#if work.readmore !== ""}
+                        <a href={work.readmore} class="image-box hover:border-2 hover:border-sky-600">
+                            {#if work.image !== ""}
+                                <img src={work.image} alt="" />
+                            {:else}
+                                <div></div>
+                            {/if}
                         </a>
+                    {:else if work.image !== ""}
+                        <img src={work.image} alt="" />
+                    {:else}
+                        <div class="image-box fill-slate-800 border-slate-800 border">
+                            <Topography></Topography>
+                        </div>
+                    {/if}
+                    <div class="content">
+                        {#if work.readmore !== ""}
+                            <a href={work.readmore} class="hover:underline">
+                                <h1 class="text-3xl">{work.title}</h1>
+                            </a>
+                        {:else}
+                            <h1 class="text-3xl">{work.title}</h1>
+                        {/if}
                         <div class="skills">
                             {#each work.skills as skill}
                                 <Skill id={skill} />
                             {/each}
                         </div>
                         <p>{work.description}</p>
-                        <ul class="list-disc list-inside">
-                            {#each work.points as point}
-                                <li>{point}</li>
-                            {/each}
-                        </ul>
+                        {#if work.points.length > 0}
+                            <ul class="list-disc list-inside">
+                                {#each work.points as point}
+                                    <li>{point}</li>
+                                {/each}
+                            </ul>
+                        {/if}
                         <div class="flex gap-2">
-                            <a class="main-button text-sm" href={work.readmore}>
-                                <p>Read More</p>
-                            </a>
+                            {#if work.readmore !== ""}
+                                <a class="main-button text-sm" href={work.readmore}>
+                                    <p>Read More</p>
+                                </a>
+                            {/if}
+                            {#if work.website !== ""}
+                                <a class="main-button text-sm" href={work.website} target="_blank">
+                                    <p>View</p>
+                                </a>
+                            {/if}
                             {#if work.playstore !== ""}
                                 <a class="main-button text-sm" href={work.playstore} target="_blank">
                                     <p>Google Play</p>
